@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0wba7je75lm7"]
+
+[ext_resource type="Script" uid="uid://cga35r13shda6" path="res://erik.gd" id="1_kwod2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4dtgj"]
+
+[node name="ERIK" type="CharacterBody2D"]
+script = ExtResource("1_kwod2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_4dtgj")
